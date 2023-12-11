@@ -1,27 +1,26 @@
-<!--PLEASE HELP-->
+<!--PLEASE HELP, Why am I doing it?-->
 
-<!DOCTTYPE>
+<!DOCTTYPE html>
 <html lang="en-PL">
     <head>
         <title>Home - Better Synergia</title>
+        <meta charset="uft-8">
+        <meta name="robots" content="index">
+        <meta name="copyright" content="(c) 2024 Rafał Banasiak">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body class="all"> 
-        <header class="wel">
-            <h1 id="wel" class="weltext">Welcome in Librus synergia</h1>
-        </header>
+    <body id="all"> 
+        <div id="wel">
+            <h1 id="weltext">Welcome in Librus synergia</h1>
+        </div>
 
         <!--BUTTON TO CHOISE TO LOGIN AS TEA OR STU-->
-        <article>
-            <h class="logasstext">Log in sa</h> <!--hehe ASS-->
-            <div id="buttonlog" class="buttonlog">
-
-                <button class="buttonlogtea" onclick="window.location.href='./tea/login-tea.html'"><h class="textlogtea">Teacher Login</h></button>
-                <button class="buttonlogstu" onclick="window.location.href='./stu/login-stu.html'"><h class="textlogstu">Student Login</h></button>
+        <div id="buttonlog">
+            <p id="logasstext">Log in as</p><!--hehe ASS (in id)-->
+            <div id="buttonlogtea" onclick="window.location.href='./tea/login-tea.html'">Teacher Login</div>
+            <div id="buttonlogstu" onclick="window.location.href='./stu/login-stu.html'">Student Login</div>
             </div>
-        </article>
         <footer>
-            <a id="github" class="github" href="https://github.com/RafaelloB/bettersynergia" target="_blank">GitHub</a>
+            <p id="git" onclick="window.location.href='https://github.com/RafaelloB/bettersynergia'" target="_blank">© Rafał Banasiak</p>
         </footer>
     </body>
-</html>
