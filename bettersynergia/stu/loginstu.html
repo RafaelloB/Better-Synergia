@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in - Better Synergia</title>
-    <link rel="stylesheet" href="loginstu.css">
+    <meta name="robots" content="index">
+    <meta name="copyright" content="(c) 2024 Rafał Banasiak">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../librus.ico">
 </head>
 <body id="all">
 
     <div id="wel">
         <p>Welcome in Librus synergia</p>
     </div>
- 
-    <form id="log" action="./home-stu.html" method="post">
-        <p>Log in with your student or parent account</p>
-        <p>
-            <label for="userstu">Login</label>
-            <input type="text" id="userstu" required/>
-        </p>
-        <p>
-            <label for="pwstu">Password</label>
-            <input type="password" id="pwstu" required/>
-        </p>
-        <input type="submit" value="Submit">
-    </form>
+
+    <div id="log">
+        <form action="./home-stu.html" method="post">
+            <p>Log in with your student or parent account</p>
+            <p>
+                <label for="userstu" id="userstu">Login</label>
+                <input type="text"  required/>
+            </p>
+            <p>
+                <label for="pwstu" id="pwstu">Password</label>
+                <input type="password" required/>
+            </p>
+            <input type="submit" value="Log in">
+        </form>
+        <p></p>
+        <button onclick="history.back()">Go Back</button>
+    </div>    
 
     <div id="git">
         <p onclick="window.location.href='https://github.com/RafaelloB/bettersynergia'" target="_blank">© Rafał Banasiak</p>
