@@ -1,26 +1,34 @@
-<!DOCTTYPE htlm>
-<html lang="en-PL">
-    <head>
-        <title>Log in - Better Synergia</title>
-        <link rel="stylesheet" href="stylestu.css">
-    </head>
-    <body class="all">
-        <header>
-            <h1>Welcome in Librus synergia</h1>
-        </header>
- 
-        <form class="formlogstu" action="./home-stu.html" method="post">
-            <p>Log in with your student or parent account</p>
-            <label for="userstu">Login</label>
-            <input type="text" id="userstu" name="userstu" required />
-            <label for="pwstu">Password</label>
-            <input type="password" id="pwstu" name="pwstu" required />
-            <input type="submit" value="Submit">
-        </form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in - Better Synergia</title>
+    <link rel="stylesheet" href="loginstu.css">
+</head>
+<body id="all">
 
-        <footer>
-            <a id="github" name="github" href="https://github.com/RafaelloB/bettersynergia" target="_blank">GitHub</a>
-        </footer>
+    <div id="wel">
+        <p>Welcome in Librus synergia</p>
+    </div>
+ 
+    <form id="log" action="./home-stu.html" method="post">
+        <p>Log in with your student or parent account</p>
+        <p>
+            <label for="userstu">Login</label>
+            <input type="text" id="userstu" required/>
+        </p>
+        <p>
+            <label for="pwstu">Password</label>
+            <input type="password" id="pwstu" required/>
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="git">
+        <p onclick="window.location.href='https://github.com/RafaelloB/bettersynergia'" target="_blank">© Rafał Banasiak</p>
+    </div>
+
     </body>
 </html>
 
